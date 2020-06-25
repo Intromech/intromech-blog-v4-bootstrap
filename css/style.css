@@ -1,0 +1,246 @@
+:root {
+  --light-green: #47ff65;
+  --dark-green: #33c678;
+  --darkest-green: #27ad66;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abril Fatface", cursive;
+  color: black;
+}
+
+p {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.navbar {
+  background: var(--dark-green) !important;
+  width: 100vw;
+}
+
+nav a {
+  color: white !important;
+  font-size: 24px;
+}
+
+.navbar-brand {
+  font-family: "Abril Fatface", cursive;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+header svg {
+  margin-top: 40px;
+}
+
+.header-subscribe > * {
+  margin: 40px auto;
+}
+
+.header-subscribe h1 {
+  font-size: 48px;
+}
+
+.header-subscribe .subscribe-msg {
+  font-size: 24px;
+}
+
+.form-group > * {
+  margin: 0 10px;
+}
+
+.blog-heading {
+  border-top: 1px solid #a9a9a9;
+  border-bottom: 1px solid #a9a9a9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.blog-heading > * {
+  margin: 0 10px;
+}
+
+.blog-post {
+  width: 400px;
+  /* overflow: hidden; */
+  margin: 40px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  padding: 0;
+}
+
+.blog-post > * {
+  padding: 0;
+}
+
+.blog-post h2 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.blog-post p {
+  font-size: 16px;
+  margin: 20px;
+}
+
+.show-header {
+  width: 1336px;
+  height: 630px;
+  margin: 100px auto 40px auto;
+}
+.author {
+  margin: 20px auto;
+  display: flex;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.author-bio {
+  margin: auto 20px;
+}
+
+.author a {
+  text-decoration: none;
+  color: black;
+}
+
+.author-bio a > * {
+  margin: 3px;
+}
+
+.show-main h1 {
+  font-size: 48px;
+}
+
+.article p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: black;
+}
+
+footer {
+  background: black;
+  /* color: white; */
+  font-size: 21px;
+  padding: 40px 0;
+  margin-top: 40px;
+}
+
+footer .social {
+  margin: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  /* color: white; */
+  margin: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  h1 {
+    font-size: 24px !important;
+  }
+
+  p {
+    font-size: 16px !important;
+  }
+
+  header svg {
+    width: 188px;
+    height: 157px;
+    margin: 20px auto;
+  }
+
+  .header-subscribe > * {
+    margin: 10px auto;
+  }
+
+  .header-subscribe .subscribe-msg {
+    font-size: 16px;
+  }
+
+  .form-group > * {
+    margin: 5px auto;
+  }
+  .blog-heading {
+    border-top: 1px solid #a9a9a9;
+    border-bottom: 1px solid #a9a9a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .blog-heading svg {
+    width: 65px;
+    height: 55px;
+  }
+
+  .blog {
+    width: 310px;
+    margin: 0 auto;
+  }
+
+  .blog-post {
+    margin: 20px auto;
+    padding: 0;
+    width: 300px;
+  }
+
+  .blog-post img {
+    width: 100%;
+  }
+
+  .show-header {
+    width: auto;
+    height: auto;
+    margin: 50px auto 20px auto;
+  }
+
+  .show-main h1 {
+    font-size: 24px;
+  }
+
+  .article p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: black;
+  }
+
+  footer {
+    background: black;
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  footer .social {
+    margin: 5px;
+  }
+
+  footer a {
+    text-decoration: none;
+    margin: 5px;
+  }
+}
